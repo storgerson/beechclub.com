@@ -18,7 +18,7 @@ contact.html       Contact form and club info
 styles.css         Shared stylesheet
 script.js          Mobile nav + contact form behavior
 assets/            Favicon and other static assets
-CNAME              Custom domain for GitHub Pages (beechclub.com)
+CNAME              Custom domain for GitHub Pages (beechclub.org)
 ```
 
 ## Preview locally
@@ -52,13 +52,13 @@ python3 -m http.server 8000
 2. In the repo, go to **Settings → Pages**.
 3. Under **Build and deployment**, set **Source** to "Deploy from a branch",
    branch `main`, folder `/ (root)`.
-4. Under **Custom domain**, enter `beechclub.com` and save (this matches the
+4. Under **Custom domain**, enter `beechclub.org` and save (this matches the
    included `CNAME` file). Check **Enforce HTTPS** once the certificate is
    issued (can take a few minutes to a few hours).
 
-## Pointing beechclub.com (GoDaddy) at GitHub Pages
+## Pointing beechclub.org (GoDaddy) at GitHub Pages
 
-In GoDaddy's DNS management for beechclub.com, add:
+In GoDaddy's DNS management for beechclub.org, add:
 
 - Four **A** records for the apex domain (`@`) pointing to GitHub Pages' IPs:
   - 185.199.108.153
