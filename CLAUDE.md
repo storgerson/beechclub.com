@@ -76,9 +76,9 @@ stale comments if you touch this form.
 ## Placeholder content
 
 Several pages still contain bracketed placeholders (e.g. `[add engine &amp;
-TN system details]` in fleet.html, `[add amount]` in membership.html,
-`info@beechclub.example` in footers) awaiting real club data — see
-README.md's "Things to customize before going live" section. Don't treat
+TN system details]` in fleet.html, `[add amount]` in membership.html)
+awaiting real club data — see README.md's "Things to customize before
+going live" section. Don't treat
 these as bugs to silently invent values for; ask for real figures or leave
 the placeholder intact unless the user supplies the real data.
 
