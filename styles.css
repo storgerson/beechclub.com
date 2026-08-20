@@ -508,6 +508,18 @@ p { margin: 0 0 16px; color: var(--gray-700); }
   color: var(--navy-900);
 }
 
+.spec-table td a {
+  color: var(--sky-500);
+  text-decoration: underline;
+  text-decoration-color: var(--gold-500);
+  text-underline-offset: 2px;
+}
+
+.spec-table td a:hover,
+.spec-table td a:focus-visible {
+  color: var(--gold-600);
+}
+
 /* ---------- Tables ---------- */
 
 .table-wrap {
